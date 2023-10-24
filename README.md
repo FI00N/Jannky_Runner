@@ -113,11 +113,9 @@ The following figure is an example of a valid grid where the dashed lines repres
 
 ### Task
 
-- Completeness of the robot following a 10-step [motion plan](#motion-plan). Completing each motion step will grant 1 mark.
+- Completeness of the robot following a 10-step [motion plan](#motion-plan). 
 
     The motion plan is hardcoded or sent via bluetooth.
-
-    The robot will be considered within a cell if its centroid is within the cell boundary.
     
     The robot heading will have the direction of a cardinal direction (`N`, `E`, `S`, `W`) within the tolerance of $\pm$ 45 degrees of a cardinal direction.
 
